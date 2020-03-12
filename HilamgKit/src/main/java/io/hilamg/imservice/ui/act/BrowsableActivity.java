@@ -34,7 +34,7 @@ public class BrowsableActivity extends RxAppCompatActivity {
                 return;
             }
 
-            String sign = "appId=" + appId + "&mobileOrEmail" + mobileOrEmail + "&appSecret" + appSecret;
+            String sign = "appId=" + appId + "&mobileOrEmail=" + mobileOrEmail + "&appSecret=" + appSecret;
             String md5Sign = MD5Utils.getMD5(sign);
             if (TextUtils.isEmpty(md5Sign)) {
                 ToastUtils.showShort("missing params");
@@ -42,7 +42,7 @@ public class BrowsableActivity extends RxAppCompatActivity {
             }
 
             ServiceFactory.getInstance().getBaseService(Api.class)
-                    .getBusiness(appId, mobileOrEmail, md5Sign.toLowerCase())
+                    .getBusiness(appId, mobileOrEmail, md5Sign.toUpperCase())
                     .compose(bindToLifecycle())
                     .compose(RxSchedulers.ioObserver(CommonUtils.initDialog(this)))
                     .compose(RxSchedulers.normalTrans())
