@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="colorPrimary">#4585F5</color>
+    <color name="colorPrimaryDark">#4585F5</color>
+    <color name="colorAccent">#4585F5</color>
+    <color name="text_select_color">#8b8888</color>
+    <color name="textcolor1">#333333</color>
+    <color name="textcolor2">#666666</color>
+    <color name="textcolor3">#999999</color>
+    <color name="background">#ededee</color>
+    <color name="click_bg_dark">#BFBFBF</color>
+    <color name="click_bg_dark_light">#E0E0E0</color>
+    <color name="count_down">#EB1D1C</color>
+    <color name="confirm_sale_line">#eeeeee</color>
+    <color name="tvChangeSign">#BCBDC7</color>
+    <color name="pop_color1">#4B4D5B</color>
+    <color name="pop_color3">#D2D2D2</color>
+    <color name="background_color">#f8f8f8</color>
+    <color name="theme_color">#4B4D5B</color>
+    <color name="text_color3">#333333</color>
+    <color name="textColor6">#666666</color>
+    <color name="textColor9">#999999</color>
+    <color name="colorE">#EEEEEE</color>
+    <color name="colorD">#DDDDDD</color>
+    <color name="colorTheme">#4585F5</color>
+    <color name="color9">#999999</color>
+    <color name="msgTitle">#020818</color>
+</resources>

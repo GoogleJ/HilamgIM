@@ -1,0 +1,2 @@
+include  ':HilamgKit'
+rootProject.name = 'hilamgIMKit'
