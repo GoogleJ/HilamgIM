@@ -28,9 +28,7 @@
     <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
     <uses-permission android:name="android.permission.WAKE_LOCK"/>
 
-    <application
-        android:requestLegacyExternalStorage="true"
-        android:theme="@style/AppTheme">
+    <application>
         <activity
             android:name="io.hilamg.imservice.ui.act.DropRedRecordActivity"
             android:launchMode="singleTop"

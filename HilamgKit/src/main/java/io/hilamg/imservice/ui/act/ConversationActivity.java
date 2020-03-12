@@ -502,6 +502,7 @@ public class ConversationActivity extends BaseActivity {
         RongIMClient.setTypingStatusListener(null);
         RongIM.getInstance().setSendMessageListener(null);
         RongIM.setConversationClickListener(null);
+        RongIM.getInstance().logout();
         super.onDestroy();
     }
 }
